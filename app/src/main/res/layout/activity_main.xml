@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/udacity_background_color"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:id="@+id/my_projects_layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nanodegree"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/popular_movies"
+        android:id="@+id/popular_movies_button"
+        android:background="@color/nanodegree_label_color"
+        android:textColor="@color/udacity_title_color"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:onClick="sendPopularMoviesMessage"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/stock_hawk"
+        android:id="@+id/stock_hawk_button"
+        android:background="@color/nanodegree_label_color"
+        android:textColor="@color/udacity_title_color"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/popular_movies_button"
+        android:onClick="sendStockHawkMessage"
+        android:layout_alignLeft="@+id/popular_movies_button"
+        android:layout_alignStart="@+id/popular_movies_button" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/build_it_bigger_button"
+        android:background="@color/nanodegree_label_color"
+        android:textColor="@color/udacity_title_color"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/stock_hawk_button"
+        android:onClick="sendBuildItBiggerMessage"
+        android:layout_alignLeft="@+id/stock_hawk_button"
+        android:layout_alignStart="@+id/stock_hawk_button" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/app_material"
+        android:id="@+id/app_material_button"
+        android:background="@color/nanodegree_label_color"
+        android:textColor="@color/udacity_title_color"
+        android:layout_marginTop="23dp"
+        android:onClick="sendAppMaterialMessage"
+        android:layout_below="@+id/build_it_bigger_button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/go_ubiquitous"
+        android:id="@+id/go_ubiquitous_button"
+        android:background="@color/nanodegree_label_color"
+        android:textColor="@color/udacity_title_color"
+        android:layout_below="@+id/app_material_button"
+        android:layout_alignLeft="@+id/app_material_button"
+        android:onClick="sendGoUbiquitousMessage"
+        android:layout_alignStart="@+id/app_material_button"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/capstone"
+        android:id="@+id/capstone_button"
+        android:background="@color/nanodegree_label_color"
+        android:textColor="@color/udacity_title_color"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/go_ubiquitous_button"
+        android:onClick="sendCapstoneMessage"
+        android:layout_alignLeft="@+id/go_ubiquitous_button"
+        android:layout_alignStart="@+id/go_ubiquitous_button" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My App Portfolio</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nanodegree">My Nanodegree Apps!</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="stock_hawk">Stock Hawk</string>
+    <string name="build_it_bigger">Build it Bigger</string>
+    <string name="app_material">Make your App Material</string>
+    <string name="go_ubiquitous">Go Ubiquitous</string>
+    <string name="capstone">Capstone</string>
+
+    <color name="udacity_blue_color">#02B3E4</color>
+    <color name="udacity_background_color">#EEEEEE</color>
+    <color name="udacity_title_color">#FFFFFF</color>
+    <color name="nanodegree_label_color">#2E3D48</color>
+    <color name="udacity_button_background_color">#2E3D48</color>
+
+</resources>

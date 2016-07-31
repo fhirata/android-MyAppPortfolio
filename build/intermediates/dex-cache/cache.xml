@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1-18f50f067629afe01a6a598bb0c4138064b603c1.jar" />
+    </item>
+    <item
+        jar="/Users/fabiohh/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1-36b767398ecbefc0df5c7bb48fed944a48b3d3b9.jar" />
+    </item>
+    <item
+        jar="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/pre-dexed/debug/classes-9db94a0148e21e41bbf3660cf65e2744fce94be6.jar" />
+    </item>
+    <item
+        jar="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/pre-dexed/debug/classes-d26bb97ef87f7395da66f28a79e47bb28619c062.jar" />
+    </item>
+    <item
+        jar="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/pre-dexed/debug/classes-eba0daa14321e56adf0f8b47e55d4fef4eb3cc19.jar" />
+    </item>
+    <item
+        jar="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/fabiohh/Source/Study/Udacity/android-MyAppPortfolio/app/build/intermediates/pre-dexed/debug/classes-87e02ccc5e0d9bcc1a6fc715f853eb8883c1d2c2.jar" />
+    </item>
+
+</items>
