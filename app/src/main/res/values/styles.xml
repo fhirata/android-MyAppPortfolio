@@ -5,5 +5,12 @@
         <!-- Customize your theme here. -->
 
     </style>
+    <style name="customButtonStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:background">@color/nanodegree_label_color</item>
+        <item name="android:textColor">@color/udacity_title_color</item>
+        <item name="android:onClick">showToast</item>
+    </style>
 
 </resources>
