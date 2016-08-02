@@ -31,30 +31,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-//    public void sendPopularMoviesMessage(View view) {
-//        showToast(R.string.popular_movies);
-//    }
-//
-//    public void sendStockHawkMessage(View view) {
-//        showToast(R.string.stock_hawk);
-//    }
-//
-//    public void sendBuildItBiggerMessage(View view) {
-//        showToast(R.string.build_it_bigger);
-//    }
-//
-//    public void sendAppMaterialMessage(View view) {
-//        showToast(R.string.app_material);
-//    }
-//
-//    public void sendGoUbiquitousMessage(View view) {
-//        showToast(R.string.go_ubiquitous);
-//    }
-//
-//    public void sendCapstoneMessage(View view) {
-//        showToast(R.string.capstone);
-//    }
-
     public void showToast(View view) {
         Button button = (Button) view;
         String appName = button.getText().toString();
